@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "156884365660",
+    "project_id": "snap-quest-fyp-cef98",
+    "storage_bucket": "snap-quest-fyp-cef98.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156884365660:android:dfb708105141b491a55199",
+        "android_client_info": {
+          "package_name": "com.huzaifa_khan.snapquestfyp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4R_N1x5I0kB_wmD0ghG6HEwZqFpTc9sw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

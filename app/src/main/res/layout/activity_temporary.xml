@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    android:background="#D4D8DF"
+    android:padding="16dp"
+    android:useDefaultMargins="true"
+    tools:context=".TemporaryActivity">
+
+    <!-- Upload Photo -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:elevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnUploadPhoto">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="📤"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Upload Photo"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!-- New Feed -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:elevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnFeed">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="📰"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="New Feed"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!-- Trending -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:elevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnTrending">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="🔥"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Trending"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!-- Search -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:elevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnSearchUser">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="🔍"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Search User"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!-- Profile -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:elevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnProfile">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="👤"
+            android:textSize="28sp"/>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="My Profile"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!-- Logout -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="130dp"
+        android:layout_columnWeight="1"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/card_bg"
+        android:elevation="8dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:id="@+id/btnLogout">
+
+        <ImageView
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:src="@drawable/logout"
+            app:tint="#D32F2F" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Logout"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:textColor="#D32F2F"/>
+    </LinearLayout>
+
+</GridLayout>
